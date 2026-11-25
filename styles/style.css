@@ -13,6 +13,15 @@
   gap: 32px;
   padding-left: 20px;
   font-size: 18px;
+  list-style: none;
+}
+
+.header__links-list-item {
+  list-style: disc;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
 }
 
 .header__link_active {
@@ -82,7 +91,11 @@
 }
 
 .cover__description-text {
-  word-spacing: 4px;
+  width: 637px;
+  min-height: 28px;
+  line-height: 28px;
+  text-align: justify;
+  text-align-last: justify;
 }
 
 .bet-button {
@@ -277,11 +290,13 @@
 }
 
 .footer__menu-link {
+  width: fit-content;
+  border-bottom: 1px solid currentColor;
   text-decoration: none;
 }
 
 .footer__menu-link_active {
-  text-decoration: none;
+  border-bottom: none;
 }
 
 .footer__social-list {
