@@ -11,7 +11,6 @@
 .header__links-list {
   display: flex;
   gap: 32px;
-  padding-left: 20px;
   font-size: 18px;
   list-style: none;
   padding-left: 50px;
@@ -47,11 +46,12 @@
   max-width: 300px;
 }
 
-.address-link{
+.address-link {
   max-width: 239.5px;
+  text-underline-offset: 4px;
 }
 
-.address-text{
+.address-text {
   max-width: 236.5px;
 }
 
@@ -267,7 +267,6 @@
   grid-column: 2;
   grid-row: 2;
   max-width: 693px;
-  margin-top: 30px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
@@ -303,10 +302,6 @@
 
 .address {
   font-style: initial;
-}
-
-.address-link {
-  text-underline-offset: 4px;
 }
 
 .footer__address {
