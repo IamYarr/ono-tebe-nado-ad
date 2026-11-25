@@ -2,7 +2,7 @@
 
 .header {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 478px min-content 604.6px;
   align-items: center;
   min-height: 293px;
   padding: 20px 50px;
@@ -17,11 +17,16 @@
 }
 
 .header__links-list-item {
-  list-style: disc;
+  list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
   list-style: none;
+}
+
+.header__link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .header__link_active {
@@ -30,6 +35,15 @@
 
 .header__logo {
   width: 148px;
+  height: 105px;
+}
+
+.header__address {
+  justify-self: center;
+  width: 236.5px;
+  height: 98px;
+  font-size:18px;
+  line-height:24.3px;
 }
 
 /* ---------- Cover ---------- */
@@ -63,7 +77,7 @@
   gap: 22px;
   font-size: 100px;
   font-weight: 700;
-  line-height: 1.06;
+  line-height: 1.15;
 }
 
 .aligned-text {
@@ -73,10 +87,13 @@
 
 .aligned-text_center {
   text-align: center;
+  margin-left: 14.5px;
+  .
 }
 
 .aligned-text_right {
   text-align: right;
+  margin-right: -30px;
 }
 
 .cover__description {
@@ -88,6 +105,8 @@
   gap: 24px;
   margin-top: auto;
   font-size: 22px;
+  margin-top:106px;
+    height:51px;
 }
 
 .cover__description-text {
@@ -101,10 +120,11 @@
 .bet-button {
   flex-shrink: 0;
   border: 1px solid #fff;
-  padding: 10px 29px;
+  padding: 11.5px 31.5px;
   color: #fff;
   font: inherit;
   font-size: 22px;
+  line-height: 28px;
   background-color: transparent;
   text-transform: uppercase;
   white-space: nowrap;
@@ -191,6 +211,8 @@
   line-height: 26px;
   text-transform: uppercase;
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .card__text {
@@ -202,6 +224,7 @@
 .lots__look-more-link {
   margin-left: 40px;
   font-size: 20px;
+  text-underline-offset: 6px;
 }
 
 /* ---------- About ---------- */
@@ -211,7 +234,7 @@
   grid-template-columns: 320px 1fr;
   gap: 0px 46px;
   align-items: center;
-  padding: 165px 24px 130px;
+  padding: 165px 24px 130px 24px;
 }
 
 .about__column-logo {
@@ -237,9 +260,6 @@
 .about__column-text {
   grid-column: 2;
   grid-row: 2;
-  display: flex;
-  flex-direction: column;
-  gap: 26px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
@@ -248,7 +268,17 @@
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 26px;
+}
+
+.about__text1 {
+  width: 688px;
+  height:120px;
+}
+
+.about__text2 {
+  width: 693px;
+  height:168px;
 }
 
 .about__title {
@@ -270,10 +300,15 @@
   gap: 24px;
   padding: 30px 50px 90px;
   font-size: 18px;
+  line-height:24px;
 }
 
-.address{
-  font-style:initial;
+.address {
+  font-style: initial;
+}
+
+.address-link {
+  text-underline-offset: 4px;
 }
 
 .footer__address {
